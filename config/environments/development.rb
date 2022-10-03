@@ -40,7 +40,7 @@ Rails.application.configure do
 
   # Print deprecation notices to the Rails logger.
   config.active_support.deprecation = :log
-  
+
   config.active_job.queue_adapter = :inline
 
   # Raise exceptions for disallowed deprecations.
