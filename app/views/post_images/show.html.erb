@@ -20,7 +20,7 @@
         ♡<%= @post_image.favorites.count %> いいね
       <% end %>
     </p>
-  <% end %></div>
+  <% end %>
 <div>
   <%= form_with model: [@post_image, @post_comment] do |f| %>
     <%= f.text_area :comment, rows: '5', placeholder: "コメントをここに" %>
